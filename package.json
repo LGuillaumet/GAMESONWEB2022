@@ -1,0 +1,19 @@
+{
+  "name": "@babylon/root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "craco": "^0.0.3"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  
+  "dependencies": {
+  },
+  "scripts": {
+    "start": "lerna exec --scope @babylon/app -- yarn start"
+  }
+}
